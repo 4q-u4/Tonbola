@@ -1,0 +1,82 @@
+.tonbola-wrapper {
+    max-width: 100%;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+    padding: 10px; /* Add some padding */
+}
+
+.tonbola-table-container {
+    min-width: 900px; /* Set a minimum width for the table */
+}
+
+.tonbola-wrapper table {
+    width: 100%;
+    table-layout: fixed; /* This ensures all columns have equal width */
+    border-collapse: collapse;
+}
+
+.tonbola-wrapper .tonbola-cell {
+    width: 6.66%; /* 100% / 15 columns */
+    height: 60px; /* Set a fixed height for all cells */
+    border: 1px solid #686767;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px;
+    overflow: hidden; /* Hide overflow content */
+}
+
+.tonbola-wrapper .tonbola-cell.open-here {
+    width: 33.33%; /* 5 times the width of a normal cell */
+}
+
+.tonbola-wrapper .tonbola-number {
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+}
+
+.tonbola-wrapper .tonbola-cell.filled {
+    background-color: #5fe25f;
+}
+
+.tonbola-wrapper .tonbola-name {
+    font-size: 12px;
+    display: block;
+    word-wrap: break-word;
+}
+
+.tonbola-wrapper .tonbola-cell:hover {
+    background-color: #e8e8e8;
+}
+
+/* .tonbola-wrapper .tonbola-number {
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.tonbola-wrapper .tonbola-name {
+    font-size: 14px;
+    display: block;
+    word-wrap: break-word;
+} */
+
+.tonbola-wrapper #tonbola-refresh-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.tonbola-wrapper #tonbola-refresh-button:hover {
+    background-color: #45a049;
+}
+
+.open-here {
+    /* background-color: #9e9d98; */
+    font-weight: bold;
+}
