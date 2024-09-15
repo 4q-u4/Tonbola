@@ -1,0 +1,157 @@
+/* Admin Styles */
+/* .toplevel_page_tonbola {
+    overflow: hidden; /* Disable scrolling 
+} */
+
+.tonbola-admin-page {
+    padding: 20px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.tonbola-admin-page .tonbola-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.tonbola-admin-page h1 {
+    text-align: center;
+    color: #23282d;
+    margin-bottom: 20px;
+}
+
+.tonbola-admin-page form {
+    display: grid;
+    gap: 15px;
+}
+
+.tonbola-admin-page label {
+    font-weight: bold;
+}
+
+.tonbola-admin-page input[type="number"],
+.tonbola-admin-page input[type="text"],
+.tonbola-admin-page select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.tonbola-admin-page input[type="submit"] {
+    background-color: #0073aa;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.tonbola-admin-page input[type="submit"]:hover {
+    background-color: #005177;
+}
+
+.tonbola-admin-page .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.tonbola-admin-page button {
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    color: #555;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.tonbola-admin-page button:hover {
+    background-color: #e7e7e7;
+}
+
+.tonbola-admin-page #message {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.tonbola-admin-page #message.success {
+    color: #46b450;
+    background-color: #ecf7ed;
+}
+
+.tonbola-admin-page #message.error {
+    color: #dc3232;
+    background-color: #fbeaea;
+}
+
+.tonbola-admin-page .hidden {
+    display: none;
+}
+
+/* Frontend Styles */
+.tonbola-wrapper {
+    max-width: 100%;
+    overflow-x: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.tonbola-wrapper table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+.tonbola-wrapper .tonbola-cell {
+    border: 1px solid #ddd;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.tonbola-wrapper .tonbola-cell:hover {
+    background-color: #f0f0f0;
+}
+
+.tonbola-wrapper .tonbola-number {
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.tonbola-wrapper .tonbola-name {
+    font-size: 14px;
+    display: block;
+    word-wrap: break-word;
+}
+
+#tonbola-refresh-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+#tonbola-refresh-button:hover {
+    background-color: #45a049;
+}
+
